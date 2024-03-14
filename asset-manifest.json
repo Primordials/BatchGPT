@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BatchGPT/static/css/main.2f032e9f.css",
-    "main.js": "/BatchGPT/static/js/main.7bd5e934.js",
+    "main.css": "/BatchGPT/static/css/main.66b3e1cc.css",
+    "main.js": "/BatchGPT/static/js/main.6ef279c4.js",
     "static/js/453.ad6eb26e.chunk.js": "/BatchGPT/static/js/453.ad6eb26e.chunk.js",
     "static/media/logo.svg": "/BatchGPT/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/BatchGPT/index.html",
-    "main.2f032e9f.css.map": "/BatchGPT/static/css/main.2f032e9f.css.map",
-    "main.7bd5e934.js.map": "/BatchGPT/static/js/main.7bd5e934.js.map",
+    "main.66b3e1cc.css.map": "/BatchGPT/static/css/main.66b3e1cc.css.map",
+    "main.6ef279c4.js.map": "/BatchGPT/static/js/main.6ef279c4.js.map",
     "453.ad6eb26e.chunk.js.map": "/BatchGPT/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f032e9f.css",
-    "static/js/main.7bd5e934.js"
+    "static/css/main.66b3e1cc.css",
+    "static/js/main.6ef279c4.js"
   ]
 }
