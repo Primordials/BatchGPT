@@ -201,11 +201,11 @@ const TextAreaDemo = () => {
             <div className="flex flex-col w-full md:w-1/3">
               <p class="text-white text-1xl md:text-1xl lg:text-1xl font-bold mt-4 mb-2">GPT</p>
               <textarea
-                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                class="block w-full rounded-md border-0 py-1.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 type="text"
                 value={topTextBoxContent}
                 onChange={(e) => setTopTextBoxContent(e.target.value)}
-                placeholder="Enter text for Top Text Box"
+                placeholder="Enter text for the question to ask ChatGPT"
                 rows={7}
                 cols={150}
               />
@@ -213,10 +213,10 @@ const TextAreaDemo = () => {
             <div className="flex flex-col w-full md:w-1/3">
               <p class="text-white text-1xl md:text-1xl lg:text-1xl font-bold mt-4 mb-2">Objects</p>
               <textarea
-                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                class="block w-full rounded-md border-0 py-1.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 value={textArea1Content}
                 onChange={(e) => setTextArea1Content(e.target.value)}
-                placeholder="Enter text for Text Area 1"
+                placeholder="Enter text for objects you want to categorize, seperated with a new line each time"
                 rows={20}
                 cols={150}
               />
@@ -226,10 +226,10 @@ const TextAreaDemo = () => {
 
 
               <textarea
-                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                class="block w-full rounded-md border-0 py-1.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 value={textArea2Content}
                 onChange={(e) => setTextArea2Content(e.target.value)}
-                placeholder="Enter text for Text Area 2"
+                placeholder="Enter text for categories you wish to use"
                 rows={10}
                 cols={150}
               />
